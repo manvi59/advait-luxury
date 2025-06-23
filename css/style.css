@@ -10,7 +10,7 @@
 body {
   /* font-family: 'Libre Baskerville', serif; */
   /* background-color: #9BB76C; */
-  background-color: #9BB76C;
+  background-color: #9bb76c;
   background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   color: #fff;
   line-height: 1.6;
@@ -77,7 +77,7 @@ a {
 
 .nav-links a {
   color: #f5f5f5;
-  font-family: 'Bellefair', serif;
+  font-family: "Bellefair", serif;
   font-size: 19px;
   transition: color 0.3s ease;
 }
@@ -109,16 +109,16 @@ a {
 ================================= */
 .canvas-section {
   margin: 60px 0;
-   background: #4551308C;
+  background: #4551308c;
 
   border-radius: 14px;
-   border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 40px 30px;
   text-align: center;
 }
 
 .badge {
- background: #DA8A67AD;
+  background: #da8a67ad;
   display: inline-block;
   color: #fff;
   /* font-size: 16px; */
@@ -126,15 +126,14 @@ a {
   border-radius: 14px;
   margin-bottom: 20px;
 
-/* font-family: "Bodoni 72", serif; */
-font-family: 'Playfair Display', serif;
-font-weight: 400;
-/* font-size: 36px;
+  /* font-family: "Bodoni 72", serif; */
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  /* font-size: 36px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
 vertical-align: middle; */
-
 }
 
 .heading {
@@ -142,12 +141,11 @@ vertical-align: middle; */
   font-weight: 600;
   margin-bottom: 20px;
   color: #fff;
-  font-family: 'Playfair Display', serif;
-   
+  font-family: "Playfair Display", serif;
 }
 
 .highlight {
-  font-family: 'Great Vibes', cursive;
+  font-family: "Great Vibes", cursive;
   font-size: 22px;
   color: #e6e6e6;
 
@@ -157,7 +155,6 @@ font-size: 64px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center; */
-
 }
 
 .description {
@@ -231,17 +228,16 @@ text-align: center; */
   }
 }
 
-
 /* ----------------------------fur */
 .finishing-title {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 32px;
   color: #fff;
 }
 
 .center-overlay {
   position: absolute;
- bottom: 2%;
+  bottom: 2%;
   left: 5%;
   width: 90%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
@@ -250,7 +246,7 @@ text-align: center; */
 }
 
 .overlay-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -258,15 +254,15 @@ text-align: center; */
 
 .overlay-text {
   font-size: 14px;
-  font-family: 'Bellefair', serif;
+  font-family: "Bellefair", serif;
   line-height: 1.4;
 }
 
-  .row ,.col-md-3{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
+.row,
+.col-md-3 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
-
 
 /* ------------------responsive  design ----------*/
 
@@ -296,7 +292,7 @@ text-align: center; */
 }
 
 .overlay-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -304,7 +300,7 @@ text-align: center; */
 
 .overlay-text {
   font-size: 14px;
-  font-family: 'Bellefair', serif;
+  font-family: "Bellefair", serif;
   line-height: 1.5;
 }
 
@@ -326,15 +322,181 @@ text-align: center; */
   .overlay-text {
     font-size: 13px;
   }
+
+  .center-overlay{
+    display: none;
+  }
 }
 
+.footer {
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
 
-.footer{
-  font-family: 'Bellefair', serif;
-font-weight: 400;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
+.frameSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
 
+.frameSection.reverse {
+  flex-direction: row-reverse;
+}
+
+.framed-image {
+  position: relative;
+  display: inline-block;
+  background-image: url("/public/vector_outer.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.framed-inner {
+  background-image: url("/public/vector_inner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 20px;
+}
+
+.framed-inner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.corner-fill {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #e07e6b;
+  z-index: 2;
+}
+
+.text-box {
+  background: #4551308c;
+  padding: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  color: #ffffff;
+  /* max-width: 450px; */
+  min-width: 450px;
+}
+
+@media screen and (max-width: 890px) {
+  .left_box {
+    margin-left: 0px !important;
+    padding-left: 50px !important;
+
+    text-align: center;
+  }
+
+  .right_box {
+    margin-right: 0px !important;
+    padding-right: 50px !important;
+    text-align: center;
+  }
+
+  .framed-image {
+    max-width: none !important;
+  }
+
+  .left_box,
+  .right_box {
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-box {
+    /* padding: 30px; */
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .frameSection {
+    flex-direction: column !important;
+    gap: 30px;
+  }
+
+  /* .left_box , .right_box{
+        width: 100%;
+      } */
+}
+
+@media (max-width: 600px) {
+  .text-box {
+    min-width: 100%;
+  }
+}
+
+.framed-image .fill-corner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #e07e6b;
+  z-index: 5;
+}
+
+/* Top-left */
+.framed-image .fill-top-left {
+  top: 20px;
+  left: 20px;
+}
+
+/* Top-right */
+.framed-image .fill-top-right {
+  top: 20px;
+  right: 20px;
+}
+
+/* Bottom-left */
+.framed-image .fill-bottom-left {
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Bottom-right */
+.framed-image .fill-bottom-right {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* -----------------------------------gate frame------------------ */
+
+.frame-section {
+  /* max-width: 960px; */
+  margin: auto;
+  /* background: #a1ac8e; */
+  padding: 8px;
+  border-radius: 20px;
+  /* box-shadow: inset 0 0 0 2px #d4d6be; */
+
+  border: 1px solid #d4e2bc;
+
+  background: linear-gradient(270deg, #455130 0%, #9bb76c 52.4%, #455130 100%);
+}
+
+.gate-image {
+  border-radius: 20px;
+  overflow: hidden;
+  /* border: 2px solid #d4d6be; */
+  /* box-shadow: 0 0 0 6px #a1ac8e; */
+  border: 1px solid #d4e2bc;
+}
+
+.gate-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
