@@ -9,9 +9,10 @@
 
 body {
   /* font-family: 'Libre Baskerville', serif; */
-  /* background-color: #9BB76C; */
-  background-color: #9bb76c;
-  background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+   /* background-color: #9bb76c; */
+   background-color: #7da43c;
+  /* background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png"); */
+  background-image: url("/public/adavit_bg.png");
   color: #fff;
   line-height: 1.6;
 }
@@ -500,3 +501,6 @@ text-align: center; */
   height: auto;
   display: block;
 }
+
+
+ 

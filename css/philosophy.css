@@ -1,0 +1,183 @@
+.section-wrapper {
+  padding: 60px 15px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+
+  font-family: "Playfair Display", serif;
+  
+}
+
+.section-text {
+  /* font-size: 1rem;
+      color: #fff;
+      font-family: 'Georgia', serif;
+      line-height: 1.8;
+      margin-top: 20px; */
+
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  letter-spacing: 0%;
+  text-align: justify;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.image-frame {
+  border: 10px solid transparent;
+  padding: 5px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Classic_frame.png/640px-Classic_frame.png")
+    center/cover no-repeat;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-frame img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+
+/* --------------------------------heritage----------------- */
+
+
+.heritage-section {
+  /* background: url('https://www.transparenttextures.com/patterns/green-fibers.png');
+  background-color: #6b8e62; */
+  min-height: 100vh;
+  /* padding-top: 100px; */
+}
+
+.content-box {
+  /* max-width: 800px; */
+border: 1px solid #FFFFFF ;
+ border-radius: 14px;
+background: #4551308C;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+  height: 93vh;
+}
+
+.main-text{
+    font-family: "Bellefair";
+font-weight: 400;
+font-size: 25px;
+line-height: 1.5;
+/* letter-spacing: 0%; */
+text-align: center;
+
+}
+.inspired_text{
+font-family: 'Tangerine', cursive;
+font-weight: 400;
+text-align: center;
+font-size: 35px;
+
+}
+.highlight-box {
+background: #DA8A67AD;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 500;
+  border-radius: 14px;
+  font-size: 20px;
+ font-family: "Playfair Display", serif;    
+}
+
+.image-div {
+  /* background-color: #c57d5d;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 900px; */
+  margin-top: -25%;
+  background: #D29661D1;
+  border-radius: 14px;
+  border: 1px solid #FFFFFF;
+  margin-left: 70px;
+  margin-right: 70px;
+
+}
+
+.image-div img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+/* -----------------------------grace image -------------------------- */
+
+
+.grace-section {
+      /* padding: 80px 20px; */
+      text-align: center;
+      color: white;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .grace-section h2 {
+      font-size: 1.8rem;
+      /* font-style: italic; */
+      margin-bottom: 50px;
+
+      font-family: "Playfair Display", serif;
+  font-size: 32px;
+  color: #fff;
+    }
+
+    .image-pair {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .grace-image-wrapper {
+      /* border: 3px solid #fff;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: rgba(255, 255, 255, 0.2);
+      max-width: 400px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+
+      /* border-radius: 20px;
+ 
+  border: 1px solid #d4e2bc;
+
+  background: linear-gradient(270deg, #455130 0%, #9bb76c 52.4%, #455130 100%); */
+    }
+
+    .grace-image-wrapper img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+       border-radius: 20px;
+  /* box-shadow: inset 0 0 0 2px #d4d6be; */
+
+  border: 1px solid #d4e2bc;
+
+  background: linear-gradient(270deg, #455130 0%, #9bb76c 52.4%, #455130 100%);
+  padding: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .grace-section h2 {
+        font-size: 1.4rem;
+      }
+    }
