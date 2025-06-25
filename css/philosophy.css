@@ -55,16 +55,13 @@
 /* --------------------------------heritage----------------- */
 
 
-.heritage-section {
-  /* background: url('https://www.transparenttextures.com/patterns/green-fibers.png');
-  background-color: #6b8e62; */
+/* .heritage-section {
+  
   min-height: 100vh;
-  /* padding-top: 100px; */
-}
+ }
 
 .content-box {
-  /* max-width: 800px; */
-border: 1px solid #FFFFFF ;
+ border: 1px solid #FFFFFF ;
  border-radius: 14px;
 background: #4551308C;
   color: #fff;
@@ -78,8 +75,7 @@ background: #4551308C;
 font-weight: 400;
 font-size: 25px;
 line-height: 1.5;
-/* letter-spacing: 0%; */
-text-align: center;
+ text-align: center;
 
 }
 .inspired_text{
@@ -100,10 +96,7 @@ background: #DA8A67AD;
 }
 
 .image-div {
-  /* background-color: #c57d5d;
-  border-radius: 10px;
-  overflow: hidden;
-  max-width: 900px; */
+  
   margin-top: -25%;
   background: #D29661D1;
   border-radius: 14px;
@@ -117,6 +110,158 @@ background: #DA8A67AD;
   display: block;
   width: 100%;
   height: auto;
+} */
+
+ .heritage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.content-box {
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  background: #4551308C;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+  height: 530px;
+  /* width: 90%;
+  max-width: 800px; */
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.main-text {
+  font-family: "Bellefair";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.inspired_text {
+  font-family: 'Tangerine', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 35px;
+}
+
+.highlight-box {
+  background: #DA8A67AD;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 500;
+  border-radius: 14px;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.image-div {
+  background: #D29661D1;
+  border-radius: 14px;
+  border: 1px solid #FFFFFF;
+  width: 90%;
+  max-width: 900px;
+  margin-top: -23%;
+  z-index: 1;
+}
+
+.image-div img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* ✅ Responsive Tweaks */
+@media (max-width: 991px) {
+  .content-box {
+    font-size: 16px;
+    padding: 2rem 1.5rem;
+    /* height: auto; */
+  }
+
+  .main-text {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+
+  .inspired_text {
+    font-size: 30px;
+  }
+
+  .highlight-box {
+    font-size: 18px;
+    margin: 0 1rem;
+  }
+
+  /* .image-div {
+    margin-top: -15%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+}
+
+@media (max-width: 576px) {
+  .content-box {
+    padding: 1.5rem 1rem;
+    /* height: auto; */
+  }
+
+  .main-text {
+    font-size: 18px;
+  }
+
+  .inspired_text {
+    font-size: 26px;
+  }
+
+  .highlight-box {
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+
+  /* .image-div {
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
+}
+
+
+@media screen and (max-width:800px) {
+
+  .image-div{
+    margin-top: -30%;
+  }
+  
+}
+
+@media screen and (max-width:600px) {
+
+    .image-div{
+    margin-top: -35%;
+  }
+
+  
+}
+@media screen and (max-width:377px) {
+
+    .image-div{
+    margin-top: -20%;
+  }
+
+  
+}
+
+@media screen and (max-width:331px) {
+  .content-box{
+    height: 550px;
+  }
+  
 }
 
 
