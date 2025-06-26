@@ -1,0 +1,227 @@
+
+
+.memory-section {
+  /* background-color: #8fa574;
+  background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); */
+  /* min-height: 100vh; */
+  padding: 30px 0px;
+}
+
+.craft-box {
+   border-radius: 14px;
+  padding: 30px;
+   width: 100%;
+  /* max-width: 900px; */
+  border: 1px solid #F1D7C2;
+  border-radius: 30px;
+ }
+
+.craft-title {
+  /* font-size: 32px; */
+  color: #fff;
+  font-weight: 500;
+
+font-family: "Playfair Display", serif;
+font-weight: 400;
+font-size: 54px;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+
+
+
+}
+
+.craft-frame {
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image-source: url('https://www.transparenttextures.com/patterns/frame-border.png'); /* Replace with actual frame if needed */
+  border-image-slice: 30;
+  border-image-repeat: round;
+  display: inline-block;
+  border: 8px solid #b37a2f; /* Gold-like frame */
+}
+
+.craft-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+
+/* -----------------------------------advait section ------------------------- */
+
+.advait-section {
+  background-color: transparent;
+}
+
+/* .section-heading {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+} */
+
+.section-heading .advait_style{
+ font-family: 'Tangerine', cursive;
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+ text-align: center;
+
+}
+
+.section-heading{
+font-family: "Playfair Display", serif;
+font-weight: 400;
+font-size: 48px;
+ 
+text-align: center;
+
+}
+
+.image-card{
+     padding: 10px;
+      border: 1px solid #D4E2BC;
+       background: linear-gradient(270deg, #455130 0%, #9BB76C 52.4%, #455130 100%);
+  border-radius: 25px;
+  height: 100%;
+
+}
+
+.img-fluid{
+    height: 100% !important;
+}
+ 
+
+.text-card {
+  /* background-color: rgba(255, 255, 255, 0.08); */
+  border-radius: 25px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+border: 1px solid #D4E2BC;
+   /* font-size: 1.3rem; 
+  line-height: 1.8;  */
+  background: linear-gradient(270deg, rgba(69, 81, 48, 0.39) 0%, rgba(155, 183, 108, 0.39) 100%);
+
+font-family: "Bellefair", serif;
+font-weight: 400;
+font-size: 28px; 
+ line-height: 32px;
+ 
+
+}
+
+
+/* --------------------------------privilege------------------------------ */
+
+
+
+.privilege-section {
+background: #DA8A67C2;
+  color: #fff;
+  padding: 60px 20px;
+}
+
+.privilege-title {
+  /* font-size: 2rem;
+  font-weight: 500;
+  color: #fff; */
+   
+font-family: "Playfair Display", serif;
+font-weight: 400 !important;
+font-size: 54px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+.privilege-subtitle {
+  /* font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff; */
+
+font-weight: 400 !important;
+font-size: 32px;
+line-height: 24px;
+text-align: center;
+font-family: "Bellefair", serif;
+
+}
+
+.privilege-subtitle .italic {
+  /* font-style: italic; */
+
+ font-family: 'Tangerine', cursive;
+ font-weight: 700;
+font-size: 64px;
+line-height: 24px;
+text-align: center;
+
+}
+
+.privilege-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----------------------------shoot section ---------------------- */
+
+ 
+
+.shoot-section {
+  background-color: transparent;
+  color: white;
+  padding: 80px 0px;
+}
+
+.shoot-text p {
+  /* display: block;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  text-decoration-color: #b7d9e8;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  line-height: 1.8;
+  font-size: 1.1rem; */
+
+ font-family: "Bellefair", serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+ color:  #FFFFFF;
+;
+}
+
+.frame-image1 {
+  border: 14px solid transparent;
+  /* padding: 5px; */
+  border-image: url('/public/craft/shoot_frame1.png'); /* Replace this with your actual gold frame border if available */
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+.frame-image2 {
+  border: 14px solid transparent;
+  /* padding: 5px; */
+  border-image: url('/public/craft/shoot_frame2.png'); /* Replace this with your actual gold frame border if available */
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+
+.frame-image img {
+  /* border: 10px solid #d0a85c; */
+  border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
