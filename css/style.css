@@ -510,4 +510,6 @@ text-align: center; */
 }
 
 
- 
+ .img-fluid{
+  width: 100%;
+ }
