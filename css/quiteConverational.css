@@ -111,7 +111,8 @@ color: #FFFFFF !important;
 }
 
 .form-control-custom {
-     background: #8DA16E !important;
+     /* background: #8DA16E !important; */
+     background-color: #AAC184 !important;
      border: 0.5px solid #EDF3E2 !important;
 color: #ffffff !important;
   border-radius: 10px !important;
@@ -125,9 +126,11 @@ font-family: "Bellefair", serif !important;
 
 }
 
-.form-control{
+.form-control {
 color: #ffffff !important;
 }
+
+
 
 
 .form-control-custom::placeholder {
@@ -186,4 +189,21 @@ margin: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.modal-content{
+  width: 694px !important;
+}
+
+.form-control-custom::placeholder {
+       color: #fff !important;
+    }
+
+
+.form-control:focus-visible {
+  outline: none !important;
+}
+
+.form-control:focus , .form-control-custom:focus{
+  box-shadow: none !important;
 }

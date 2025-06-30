@@ -3,11 +3,18 @@
 }
 
 .section-title {
-  font-size: 2.5rem;
-  font-weight: 600;
+  /* font-size: 2.5rem;
+  font-weight: 600; */
   color: #fff;
 
   font-family: "Playfair Display", serif;
+
+
+font-weight: 400;
+font-size: 54px;
+line-height: 56px;
+letter-spacing: 0%;
+
   
 }
 
@@ -20,8 +27,8 @@
 
   font-family: "Bellefair", serif;
   font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.2;
+  font-size: 30px;
+  line-height: 100%;
   letter-spacing: 0%;
   text-align: justify;
   margin-top: 20px;
@@ -138,26 +145,39 @@ background: #DA8A67AD;
 .main-text {
   font-family: "Bellefair";
   font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
+  /* font-size: 25px; */
+   
+  /* line-height: 1.5; */
   text-align: center;
+
+   font-size: 34px;
+   line-height: 100%;
+   letter-spacing: 0%;
 }
 
 .inspired_text {
   font-family: 'Tangerine', cursive;
   font-weight: 400;
   text-align: center;
-  font-size: 35px;
+  /* font-size: 35px; */
+
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .highlight-box {
   background: #DA8A67AD;
   padding: 12px 24px;
   color: white;
-  font-weight: 500;
+  font-weight: 400;
   border-radius: 14px;
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
+  /* font-size: 20px; */
+  /* font-family: "Playfair Display", serif; */
+
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .image-div {
@@ -165,8 +185,8 @@ background: #DA8A67AD;
   border-radius: 14px;
   border: 1px solid #FFFFFF;
   width: 90%;
-  max-width: 900px;
-  margin-top: -23%;
+  /* max-width: 900px; */
+  margin-top: -18%;
   z-index: 1;
 }
 
@@ -282,8 +302,10 @@ background: #DA8A67AD;
       margin-bottom: 50px;
 
       font-family: "Playfair Display", serif;
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 54px;
   color: #fff;
+  font-weight: 400;
     }
 
     .image-pair {
@@ -318,7 +340,7 @@ background: #DA8A67AD;
   border: 1px solid #d4e2bc;
 
   background: linear-gradient(270deg, #455130 0%, #9bb76c 52.4%, #455130 100%);
-  padding: 10px;
+  padding: 15px;
     }
 
     @media (max-width: 768px) {

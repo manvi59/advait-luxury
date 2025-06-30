@@ -137,39 +137,42 @@ a {
   /* font-family: "Bodoni 72", serif; */
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  /* font-size: 36px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: center;
-vertical-align: middle; */
+  font-size: 32px ;
 }
 
 .heading {
-  font-size: 28px;
+  /* font-size: 28px; */
   font-weight: 600;
   margin-bottom: 20px;
   color: #fff;
   font-family: "Playfair Display", serif;
+  font-size: 54px;
 }
 
 .highlight {
-  font-family: "Great Vibes", cursive;
+  /* font-family: "Great Vibes", cursive;
   font-size: 22px;
-  color: #e6e6e6;
+  color: #e6e6e6; */
 
-  /* font-family: Tangerine;
+ font-family: 'Tangerine', cursive;
 font-weight: 400;
 font-size: 64px;
 line-height: 100%;
 letter-spacing: 0%;
-text-align: center; */
+text-align: center; 
 }
 
 .description {
-  font-size: 16px;
+  /* font-size: 16px; */
   line-height: 1.7;
   color: #f2f2f2;
   font-weight: 400;
+   font-family: "Bellefair", serif;
+   font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+   
+
 }
 
 /* ================================
@@ -239,31 +242,39 @@ text-align: center; */
 /* ----------------------------fur */
 .finishing-title {
   font-family: "Playfair Display", serif;
-  font-size: 32px;
+  /* font-size: 32px; */
   color: #fff;
+font-size: 44px;
+  /* font-size: 54px; */
 }
 
 .center-overlay {
   position: absolute;
   bottom: 2%;
-  left: 5%;
-  width: 90%;
+  left: 2%;
+  width: 97%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-  padding: 20px;
+  padding: 10px;
   border-radius: 0 0 10px 10px;
 }
 
 .overlay-heading {
-  font-family: "Playfair Display", serif;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+   font-family: 'Jomolhari', serif;
+  
 }
 
 .overlay-text {
-  font-size: 14px;
+  /* font-size: 14px;
   font-family: "Bellefair", serif;
-  line-height: 1.4;
+  line-height: 1.4; */
+
+font-family: 'Jaldi', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0%;
+
+  
 }
 
 .row,
@@ -295,21 +306,26 @@ text-align: center; */
   left: 0;
   width: 100%; */
   background: linear-gradient(to top, #9a7d64, transparent);
-  padding: 20px;
+  padding: 10px;
   border-radius: 0 0 10px 10px;
 }
 
 .overlay-heading {
-  font-family: "Playfair Display", serif;
-  font-size: 22px;
-  font-weight: bold;
+   font-family: 'Jomolhari', serif;
+  /* font-size: 22px; */
+  font-weight: 400;
   margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .overlay-text {
-  font-size: 14px;
-  font-family: "Bellefair", serif;
-  line-height: 1.5;
+ font-family: 'Jaldi', sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0%;
 }
 
 /* Responsive tweak for mobile */
@@ -319,9 +335,9 @@ text-align: center; */
     padding: 0 10px;
   }
 
-  .center-overlay {
+  /* .center-overlay {
     padding: 15px;
-  }
+  } */
 
   .overlay-heading {
     font-size: 18px;
@@ -352,10 +368,12 @@ text-align: center; */
   gap: 40px;
   margin-bottom: 80px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .frameSection.reverse {
   flex-direction: row-reverse;
+  width: 100%;
 }
 
 .framed-image {
@@ -365,7 +383,7 @@ text-align: center; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20px;
-  max-width: 500px;
+  /* max-width: 500px; */
 }
 
 .framed-inner {
@@ -390,15 +408,20 @@ text-align: center; */
 }
 
 .text-box {
+   font-family: "Playfair Display", serif;
   background: #4551308c;
   padding: 50px;
   border: 1px solid #ffffff;
   border-radius: 20px;
-  font-size: 1.4rem;
+  /* font-size: 1.4rem; */
+  font-size: 34px;
   line-height: 1.7;
   color: #ffffff;
   /* max-width: 450px; */
   min-width: 450px;
+
+
+  
 }
 
 @media screen and (max-width: 890px) {
@@ -513,3 +536,12 @@ text-align: center; */
  .img-fluid{
   width: 100%;
  }
+
+
+
+/* .footer{
+   
+     bottom: 0;
+     width: 100%;
+
+} */
