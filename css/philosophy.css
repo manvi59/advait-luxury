@@ -7,8 +7,7 @@
   font-weight: 600; */
   color: #fff;
 
-  font-family: "Playfair Display", serif;
-
+  font-family: 'Bodoni72', serif;
 
 font-weight: 400;
 font-size: 54px;
@@ -173,8 +172,8 @@ background: #DA8A67AD;
   font-weight: 400;
   border-radius: 14px;
   /* font-size: 20px; */
-  /* font-family: "Playfair Display", serif; */
-
+   font-family: 'Bodoni72', serif;
+ 
   font-size: 38px;
   line-height: 100%;
   letter-spacing: 0%;
@@ -186,7 +185,7 @@ background: #DA8A67AD;
   border: 1px solid #FFFFFF;
   width: 90%;
   /* max-width: 900px; */
-  margin-top: -18%;
+  margin-top: -17%;
   z-index: 1;
 }
 
@@ -301,8 +300,7 @@ background: #DA8A67AD;
       /* font-style: italic; */
       margin-bottom: 50px;
 
-      font-family: "Playfair Display", serif;
-  /* font-size: 32px; */
+       font-family: 'Bodoni72', serif;
   font-size: 54px;
   color: #fff;
   font-weight: 400;

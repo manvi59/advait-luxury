@@ -1,52 +1,40 @@
- 
-
 .quiet-section {
   /* background-color: #8c9b6f; */
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
 }
 
 .quiet-title {
-  /* font-size: 2.5rem;
-  line-height: 1.2;
-  margin-bottom: 20px; */
-  font-family: 'Playfair Display', serif;
-   
-font-weight: 400;
-font-size: 54px;
-line-height: 56px;
-color: #ffffff;
-
-
+  font-family: "Bodoni72", serif;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 56px;
+  color: #ffffff;
+  letter-spacing: 0%;
 }
 
 .quiet-text {
-  /* font-size: 1rem; */
   margin-bottom: 25px;
   max-width: 320px;
-
- font-family: "Bellefair", serif;
- font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .quiet-btn {
-border: 1px solid #FFFFFF !important;
-  background: #DA8A67 !important;
-   /* font-size: 0.9rem !important; */
-padding: 12px 20px !important;
+  border: 1px solid #ffffff !important;
+  background: #da8a67 !important;
+  /* font-size: 0.9rem !important; */
+  padding: 12px 20px !important;
   border-radius: 10px !important;
   /* transition: 0.3s !important; */
 
-font-family: "Bellefair", serif !important;
-font-weight: 400 !important;
-font-size: 18px !important;
-  
-text-align: center !important;
-color: #FFFFFF !important;
+  font-family: "Bellefair", serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
 
+  text-align: center !important;
+  color: #ffffff !important;
 }
 
 .quiet-btn:hover {
@@ -91,47 +79,37 @@ color: #FFFFFF !important;
   display: block;
 }
 
-
- 
-
 /* ---------------------------------whisper model ------------------- */
 
 /* Modal Custom Style */
 .whisper-modal {
-  background: #8DA16E !important;
-  border: 1px solid #FFFFFF !important;
+  background: #8da16e !important;
+  border: 1px solid #ffffff !important;
   border-radius: 24px !important;
-   padding: 30px !important;
-   
+  padding: 30px !important;
+
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
-
-  
 }
 
 .form-control-custom {
-     /* background: #8DA16E !important; */
-     background-color: #AAC184 !important;
-     border: 0.5px solid #EDF3E2 !important;
-color: #ffffff !important;
+  /* background: #8DA16E !important; */
+  background-color: #aac184 !important;
+  border: 0.5px solid #edf3e2 !important;
+  color: #ffffff !important;
   border-radius: 10px !important;
   padding: 10px 15px !important;
 
-  
-font-weight: 400 !important;
-font-size: 22px !important;
-line-height: 24px !important;
-font-family: "Bellefair", serif !important;
-
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  line-height: 24px !important;
+  font-family: "Bellefair", serif !important;
 }
 
 .form-control {
-color: #ffffff !important;
+  color: #ffffff !important;
 }
-
-
-
 
 .form-control-custom::placeholder {
   color: rgba(255, 255, 255, 0.8);
@@ -145,20 +123,19 @@ color: #ffffff !important;
 }
 
 .submit-btn {
-border: 1px solid #FFFFFF !important;
-  background: #DA8A67 !important;
-   /* font-size: 0.9rem !important; */
-padding: 10px 40px !important;
+  border: 1px solid #ffffff !important;
+  background: #da8a67 !important;
+  /* font-size: 0.9rem !important; */
+  padding: 10px 40px !important;
   border-radius: 10px !important;
   /* transition: 0.3s !important; */
 
-font-family: "Bellefair", serif !important;
-font-weight: 400 !important;
-font-size: 18px !important;
-  
-text-align: center !important;
-color: #FFFFFF !important;
+  font-family: "Bellefair", serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
 
+  text-align: center !important;
+  color: #ffffff !important;
 }
 
 .submit-btn:hover {
@@ -166,44 +143,70 @@ color: #FFFFFF !important;
   color: white !important;
 }
 
-
-.model_wishper{
-  font-family: 'Playfair Display', serif;
-font-weight: 400;
-font-size: 38px;
-text-align: center;
-
+.model_wishper {
+  font-family: "Bodoni72", serif;
+  font-weight: 400;
+  font-size: 38px;
+  text-align: center;
 }
 
-.modal-body{
-border: 1px solid #FFFFFF !important;
-    border-radius: 20px !important;
-margin: 25px;
+.modal-body {
+  border: 1px solid #ffffff !important;
+  border-radius: 20px !important;
+  margin: 25px;
 }
 
 /* .modal-content{
      min-width: 694px !important;
 } */
 
-.modal.show .modal-dialog{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.modal.show .modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.modal-content{
+.modal-content {
   width: 694px !important;
 }
 
 .form-control-custom::placeholder {
-       color: #fff !important;
-    }
-
+  color: #fff !important;
+}
 
 .form-control:focus-visible {
   outline: none !important;
 }
 
-.form-control:focus , .form-control-custom:focus{
+.form-control:focus,
+.form-control-custom:focus {
   box-shadow: none !important;
+}
+
+.custom-close-white {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 1rem !important;
+  height: 1rem !important;
+  background-color: transparent !important ;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3e%3cpath d='M2.146 2.146a.5.5 0 0 1 .708 0L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+  background-repeat: no-repeat !important;
+  background-size: 1.5rem !important;
+  border: none !important;
+  opacity: 1 !important;
+  z-index: 10 !important;
+}
+
+.custom-close-white:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+/* .custom-close-white:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+} */
+
+.form-select {
+  --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
 }

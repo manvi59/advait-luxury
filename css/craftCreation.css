@@ -21,7 +21,7 @@
   color: #fff;
   font-weight: 500;
 
-font-family: "Playfair Display", serif;
+ font-family: 'Bodoni72', serif;
 font-weight: 400;
 font-size: 54px;
 line-height: 56px;
@@ -63,7 +63,7 @@ text-align: center;
 
 .section-heading .advait_style{
  font-family: 'Tangerine', cursive;
-font-weight: 700;
+font-weight: 400;
 font-size: 64px;
 line-height: 100%;
  text-align: center;
@@ -71,10 +71,11 @@ line-height: 100%;
 }
 
 .section-heading{
-font-family: "Playfair Display", serif;
+ font-family: 'Bodoni72', serif;
 font-weight: 400;
 font-size: 48px;
- 
+line-height: 100%;
+letter-spacing: 0%;
 text-align: center;
 
 }
@@ -128,11 +129,8 @@ background: #DA8A67C2;
 }
 
 .privilege-title {
-  /* font-size: 2rem;
-  font-weight: 500;
-  color: #fff; */
-   
-font-family: "Playfair Display", serif;
+
+ font-family: 'Bodoni72', serif;
 font-weight: 400 !important;
 font-size: 54px;
 line-height: 100%;
@@ -144,10 +142,7 @@ color: #FFFFFF;
 }
 
 .privilege-subtitle {
-  /* font-size: 1.1rem;
-  font-weight: 400;
-  color: #fff; */
-
+ 
 font-weight: 400 !important;
 font-size: 32px;
 line-height: 24px;
@@ -160,7 +155,7 @@ font-family: "Bellefair", serif;
   /* font-style: italic; */
 
  font-family: 'Tangerine', cursive;
- font-weight: 700;
+ font-weight: 400;
 font-size: 64px;
 line-height: 24px;
 text-align: center;
