@@ -1,6 +1,5 @@
 .quiet-section {
-  /* background-color: #8c9b6f; */
-  font-family: "Libre Baskerville", serif;
+   font-family: "Libre Baskerville", serif;
 }
 
 .quiet-title {
@@ -24,11 +23,9 @@
 .quiet-btn {
   border: 1px solid #ffffff !important;
   background: #da8a67 !important;
-  /* font-size: 0.9rem !important; */
-  padding: 12px 20px !important;
+   padding: 12px 20px !important;
   border-radius: 10px !important;
-  /* transition: 0.3s !important; */
-
+ 
   font-family: "Bellefair", serif !important;
   font-weight: 400 !important;
   font-size: 18px !important;
