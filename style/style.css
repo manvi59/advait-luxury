@@ -14,8 +14,8 @@ body {
   color: #fff;
   line-height: 1.6;
    background-color: #8DA16E;
-   /* background-image: url("/public/multiply_bg.png"); */
-   background-image: url("/public/merge.jpg");
+   /* background-image: url("img/multiply_bg.png"); */
+   background-image: url("img/merge.jpg");
 }
 
 @font-face {
@@ -386,7 +386,7 @@ letter-spacing: 0%;
 .framed-image {
   /* position: relative;
   display: inline-block;
-  background-image: url("/public/vector_outer.png");
+  background-image: url("img/vector_outer.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20px; */
@@ -395,7 +395,7 @@ letter-spacing: 0%;
 }
 
 .framed-inner {
-  /* background-image: url("/public/vector_inner.png");
+  /* background-image: url("img/vector_inner.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 20px; */
