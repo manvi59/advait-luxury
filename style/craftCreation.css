@@ -183,13 +183,13 @@ line-height: 40px;
 
 .frame-image1 {
   border: 14px solid transparent;
-   border-image: url('img/craft/shoot_frame1.png'); /* Replace this with your actual gold frame border if available */
+   border-image: url('/img/craft/shoot_frame1.png') ; 
   border-image-slice: 30;
   border-image-repeat: round;
 }
 .frame-image2 {
   border: 14px solid transparent;
-   border-image: url('img/craft/shoot_frame2.png'); /* Replace this with your actual gold frame border if available */
+   border-image: url('/img/craft/shoot_frame2.png') ;  
   border-image-slice: 30;
   border-image-repeat: round;
 }
