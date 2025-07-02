@@ -187,11 +187,22 @@ text-align: center;
 /* ================================
    RESPONSIVE DESIGN
 ================================= */
+
+@media screen and (max-width:846px) {
+  .header-inner{
+    justify-content: center;
+  }
+  .logo{
+    margin-bottom: 20px;
+  }
+  
+}
 @media (max-width: 768px) {
   .header-inner {
     /* flex-direction: column; */
     align-items: center;
     text-align: center;
+    justify-content: space-between;
   }
 
   .nav-links {
@@ -560,6 +571,7 @@ z-index: -10 !important;
 
 } */
 
+/* -----------------------------------design frame----------------------- */
 
 .frame-box-overlay {
   position: absolute;
@@ -594,6 +606,33 @@ align-items: center;
 }
 
 
+@media screen and (max-width:1159px) {
+  .frame-box-overlay{
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width:940px) {
+  .frame-box-overlay{
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width:768px) {
+   .frame-box-overlay {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px !important;
+  margin:20px 0px;
+}
+.frame-box-overlay.right {
+  left: 0% !important;
+  padding-left: 0px !important;
+}
+}
 
 .frame{
   margin:80px 0px;
