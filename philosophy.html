@@ -30,9 +30,45 @@
     <script src="js/layout-loader.js" defer></script>
   </head>
   <body>
+     <header class="site-header ">
+    <div class="layout-wrapper">
+      <div class="header-inner my-3">
+        <!-- Logo -->
+        <div class="logo-area">
+          <a href="#"><img src="img/advaitLogo.png" class="logo" alt="Advait Logo" /></a>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger d-md-none" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links d-none d-md-flex">
+          <a href="index.html">Home</a>
+          <a href="philosophy.html">Philosophy</a>
+          <a href="craft-creation.html">Craft & Creation</a>
+          <a href="quietConversational.html">In Quiet Conversation</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Modal -->
+    <div id="mobileMenu" class="mobile-menu">
+      <div class="mobile-menu-content">
+        <span class="close-btn" onclick="toggleMenu()">&times;</span>
+        <a href="index.html">Home</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="craft-creation.html">Craft & Creation</a>
+        <a href="quietConversational.html">In Quiet Conversation</a>
+      </div>
+    </div>
+  </header>
     <div class="site-container">
       <div class="layout-wrapper">
-          <header class="site-header">
+          <!-- <header class="site-header">
         <div class="header-inner my-3">
           <div class="logo-area">
             <a href="#">
@@ -46,7 +82,7 @@
             <a href="quietConversational.html">In Quiet Conversation</a>
           </nav>
         </div>
-      </header>
+      </header> -->
         <div class="container section-wrapper">
           <div class="row align-items-center g-5">
             <div class="col-md-6 mb-4 mb-md-0">
@@ -129,7 +165,11 @@
     <footer style="background-color: #d29661" class="text-center py-4">
       © 2025 Advait Luxury. All Rights Reserved.
     </footer>
-
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("active");
+    }
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

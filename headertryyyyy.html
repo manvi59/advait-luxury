@@ -16,15 +16,7 @@
   <!-- Styles -->
   <style>
     /* Reset & base */
-    body {
-      /* margin: 0;
-      font-family: 'Bellefair', serif;
-      background-color: #000;
-      color: #fff;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; */
-    }
-
+    
     a {
       text-decoration: none;
     }
@@ -35,8 +27,7 @@
       top: 0;
       z-index: 999;
       backdrop-filter: blur(5px);
-      /* background-color: rgba(0, 0, 0, 0.6); */
-    }
+     }
 
     .header-inner {
       display: flex;
@@ -44,10 +35,10 @@
       align-items: center;
     }
 
-    .logo-area img {
+    /* .logo-area img {
       max-height: 70px;
       width: auto;
-    }
+    } */
 
     .nav-links {
       display: flex;
@@ -56,7 +47,7 @@
 
     .nav-links a {
       color: #f5f5f5;
-      font-size: 19px;
+      /* font-size: 19px; */
       transition: color 0.3s ease;
     }
 
@@ -87,9 +78,11 @@
       position: fixed;
       top: 0;
       left: 0;
-      height: 100vh;
+      /* height: 100vh; */
+      height: 45vh;
       width: 100vw;
-      background: rgba(10, 10, 10, 0.96);
+       color: #fff;
+      background-color: #8DA16E;
       backdrop-filter: blur(6px);
       z-index: 2000;
       justify-content: center;
@@ -110,18 +103,18 @@
     .mobile-menu-content a {
       display: block;
       margin: 18px 0;
-      color: #fff;
+      /* color: #fff;
       font-size: 24px;
-      transition: color 0.3s ease;
+      transition: color 0.3s ease; */
     }
 
-    .mobile-menu-content a:hover {
+    /* .mobile-menu-content a:hover {
       color: #d0c097;
-    }
+    } */
 
     .close-btn {
       position: absolute;
-      top: 25px;
+      top: 2px;
       right: 30px;
       font-size: 36px;
       color: #fff;
@@ -154,12 +147,12 @@
 <body>
 
   <!-- Header Start -->
-  <header class="site-header">
-    <div class="container">
-      <div class="header-inner">
+  <header class="site-header ">
+    <div class="layout-wrapper">
+      <div class="header-inner my-3">
         <!-- Logo -->
         <div class="logo-area">
-          <a href="#"><img src="img/advait.png" class="logo" alt="Advait Logo" /></a>
+          <a href="#"><img src="img/advaitLogo.png" class="logo" alt="Advait Logo" /></a>
         </div>
 
         <!-- Hamburger -->
@@ -171,10 +164,10 @@
 
         <!-- Desktop Nav -->
         <nav class="nav-links d-none d-md-flex">
-          <a href="/try.html">Home</a>
-          <a href="/philosophy.html">Philosophy</a>
-          <a href="#">Craft & Creation</a>
-          <a href="#">In Quiet Conversation</a>
+          <a href="index.html">Home</a>
+          <a href="philosophy.html">Philosophy</a>
+          <a href="craft-creation.html">Craft & Creation</a>
+          <a href="quietConversational.html">In Quiet Conversation</a>
         </nav>
       </div>
     </div>
@@ -183,10 +176,10 @@
     <div id="mobileMenu" class="mobile-menu">
       <div class="mobile-menu-content">
         <span class="close-btn" onclick="toggleMenu()">&times;</span>
-        <a href="/try.html">Home</a>
-        <a href="/philosophy.html">Philosophy</a>
-        <a href="#">Craft & Creation</a>
-        <a href="#">In Quiet Conversation</a>
+        <a href="index.html">Home</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="craft-creation.html">Craft & Creation</a>
+        <a href="quietConversational.html">In Quiet Conversation</a>
       </div>
     </div>
   </header>

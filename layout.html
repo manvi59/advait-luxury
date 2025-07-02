@@ -166,9 +166,45 @@
     </style>
   </head>
   <body>
+     <header class="site-header ">
+    <div class="layout-wrapper">
+      <div class="header-inner my-3">
+        <!-- Logo -->
+        <div class="logo-area">
+          <a href="#"><img src="img/advaitLogo.png" class="logo" alt="Advait Logo" /></a>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger d-md-none" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links d-none d-md-flex">
+          <a href="index.html">Home</a>
+          <a href="philosophy.html">Philosophy</a>
+          <a href="craft-creation.html">Craft & Creation</a>
+          <a href="quietConversational.html">In Quiet Conversation</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Modal -->
+    <div id="mobileMenu" class="mobile-menu">
+      <div class="mobile-menu-content">
+        <span class="close-btn" onclick="toggleMenu()">&times;</span>
+        <a href="index.html">Home</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="craft-creation.html">Craft & Creation</a>
+        <a href="quietConversational.html">In Quiet Conversation</a>
+      </div>
+    </div>
+  </header>
     <div class="site-container">
       <div class="layout-wrapper">
-        <header class="site-header">
+        <!-- <header class="site-header">
           <div class="header-inner my-3">
             <div class="logo-area">
               <a href="#">
@@ -182,7 +218,7 @@
               <a href="quietConversational.html">In Quiet Conversation</a>
             </nav>
           </div>
-        </header>
+        </header> -->
 
         <div class="row g-0 position-relative">
           <div class="framed-image col-md-6 position-relative">
@@ -286,6 +322,11 @@
   });
 </script> -->
 
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("active");
+    }
+  </script>
     <script>
       const imageItems = document.querySelectorAll(".image-item");
       const isMobile = window.innerWidth <= 768;
