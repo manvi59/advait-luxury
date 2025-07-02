@@ -1,247 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Advait Luxury</title>
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advait Luxury</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-   <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Libre+Baskerville:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
 
-   <link rel="stylesheet" href="style/style.css" />
-   <script src="js/layout-loader.js" defer></script>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="js/layout-loader.js" defer></script>
 
-   <style>
-    .text-box {
-  font-family: "Playfair Display", serif;
-  font-family: 'Bodoni72', serif;
-  background: #4551308c ;
-   
-  border: 1px solid #ffffff;
-  border-radius: 20px;
-   
-  font-size: 50px !important;
-  line-height: 1.3 !important;
-  letter-spacing: 0% !important;
-  color: #ffffff;
-   padding: 60px 0px !important;
-  z-index: -10 !important;
-   
-  display: flex;
-  justify-content: center;
-  align-items: center !important;
-   
+    <style>
+      .text-box {
+        font-family: "Playfair Display", serif;
+        font-family: "Bodoni72", serif;
+        background: #4551308c;
+
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+
+        font-size: 50px !important;
+        line-height: 1.3 !important;
+        letter-spacing: 0% !important;
+        color: #ffffff;
+        padding: 60px 0px !important;
+        z-index: -10 !important;
+
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+      }
+
+      .frame-box-overlay {
+        position: absolute;
+        top: 15%;
+        left: 80%;
+        width: 120%;
+        font-family: "Playfair Display", serif;
+
+        color: white;
+        border-radius: 20px;
+        padding: 40px 20px;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+
+        font-family: "Bodoni72", serif;
+        background: #4551308c;
+        border: 1px solid #ffffff;
+        border-radius: 20px;
+
+        font-size: 47px !important;
+        padding-left: 120px !important;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .frame-box-overlay.right {
+        left: -100% !important;
+        padding-left: 50px !important;
+      }
+
+      .image-flex-wrapper {
+        display: flex;
+        gap: 20px;
+      }
+
+      .image-item {
+        flex: 1;
+        transition: flex 0.5s ease;
+        position: relative;
+        overflow: hidden;
+        /* border-radius: 10px; */
+      }
+
+      .image-item img {
+        width: 100%;
+        /* height: 700px; */
+        object-fit: cover;
+        display: block;
+        /* transition: transform 0.4s ease; */
+      }
+
+      /* Initially expand center image */
+      .center-item {
+        flex: 2;
+      }
+
+      /* Hover logic */
+      .image-item.hovered {
+        flex: 2;
+      }
+
+      .image-item.not-hovered {
+        flex: 1;
+      }
+
+      /* .image-item.hovered img {
+        transform: scale(1.03);
+      } */
+
+      .image-item.hovered img {
+   transition: none !important;
+  transform: none !important;
 }
 
-.frame-box-overlay {
-  position: absolute;
-  top: 15%;
-  left: 80%;
-  width: 120%;
-  font-family: "Playfair Display", serif;
-   
-  color: white;
-  border-radius: 20px;
-  padding: 40px 20px;
-   z-index: -1;
-  display: flex;
-align-items: center;
+      /* Overlay */
+      .center-overlay {
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        width: 96%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+        padding: 12px 16px;
+        border-radius: 0 0 10px 10px;
+        color: white;
+        z-index: 2;
+      }
 
+      @media (max-width: 768px) {
+        .image-flex-wrapper {
+          flex-direction: column;
+        }
 
-  font-family: 'Bodoni72', serif;
-  background: #4551308c ;
-  border: 1px solid #ffffff;
-  border-radius: 20px;
-   
-  font-size: 47px !important;
-  padding-left: 120px !important;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+        .image-item {
+          flex: unset !important; /* remove flex-based sizing */
+          width: 100%;
+        }
 
-.frame-box-overlay.right {
-  left: -100% !important;
-  padding-left: 50px !important;
-}
+        .image-item img {
+          height: auto;
+          max-height: 400px;
+        }
 
- .image-flex-wrapper {
-  display: flex;
-  gap: 20px;
-}
+        .center-overlay {
+          position: static;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.6);
+          padding: 12px 16px;
+          border-radius: 0 0 10px 10px;
+          margin-top: -20px;
+        }
+      }
 
-.image-item {
-  flex: 1;
-  transition: flex 0.5s ease;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-.image-item img {
-  width: 100%;
-  height: 700px;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
-}
-
-/* Initially expand center image */
-.center-item {
-  flex: 2;
-}
-
-/* Hover logic */
-.image-item.hovered {
-  flex: 2;
-}
-
-.image-item.not-hovered {
-  flex: 1;
-}
-
-.image-item.hovered img {
-  transform: scale(1.03);
-}
-
-/* Overlay */
-.center-overlay {
-  position: absolute;
-  bottom: 2%;
-  left: 2%;
-  width: 96%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  padding: 12px 16px;
-  border-radius: 0 0 10px 10px;
-  color: white;
-  z-index: 2;
-}
-
-@media (max-width: 768px) {
-  .image-flex-wrapper {
-    flex-direction: column;
-  }
-
-  .image-item {
-    flex: unset !important; /* remove flex-based sizing */
-    width: 100%;
-  }
-
-  .image-item img {
-    height: auto;
-    max-height: 400px;
-  }
-
-  .center-overlay {
-    position: static;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 12px 16px;
-    border-radius: 0 0 10px 10px;
-    margin-top: -20px;
-  }
-}
-
-@media (max-width: 576px) {
-  .image-item img {
-    max-height: 300px;
-  }
-}
-
-
-   </style>
-</head>
-<body>
-
-     <div class="site-container">
-    <div class="layout-wrapper">
-   <header class="site-header">
-        <div class="header-inner my-3">
-          <div class="logo-area">
-            <a href="#">
-              <img src="img/advaitLogo.png" class="logo" alt="Advait Logo" />
-            </a>
+      @media (max-width: 576px) {
+        .image-item img {
+          max-height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="site-container">
+      <div class="layout-wrapper">
+        <header class="site-header">
+          <div class="header-inner my-3">
+            <div class="logo-area">
+              <a href="#">
+                <img src="img/advaitLogo.png" class="logo" alt="Advait Logo" />
+              </a>
+            </div>
+            <nav class="nav-links">
+              <a href="index.html">Home</a>
+              <a href="philosophy.html">Philosophy</a>
+              <a href="craft-creation.html">Craft & Creation</a>
+              <a href="quietConversational.html">In Quiet Conversation</a>
+            </nav>
           </div>
-          <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="philosophy.html">Philosophy</a>
-            <a href="craft-creation.html">Craft & Creation</a>
-            <a href="quietConversational.html">In Quiet Conversation</a>
-          </nav>
+        </header>
+
+        <div class="row g-0 position-relative">
+          <div class="framed-image col-md-6 position-relative">
+            <div class="framed-inner">
+              <img
+                src="img/frame_shape1.png"
+                alt="Interior Design"
+                class="img-fluid"
+              />
+            </div>
+            <div class="frame-box-overlay">
+              Just A Place That Reminds<br />
+              You What Beauty Can<br />
+              Become When It’s Set Free.
+            </div>
+          </div>
+
+          <div class="col-md-6"></div>
         </div>
-      </header>
 
-<div class="row g-0 position-relative">
-  <div class="framed-image col-md-6 position-relative">
-    <div class="framed-inner">
-      <img src="img/frame_shape1.png" alt="Interior Design" class="img-fluid" />
-    </div>
-    <div class="frame-box-overlay">
-      Just A Place That Reminds<br />
-      You What Beauty Can<br />
-      Become When It’s Set Free.
-    </div>
-  </div>
-
-  <div class="col-md-6"></div>
-</div>
-
-
- <div class="row g-0 position-relative flex-row-reverse">
-    <div class="col-md-6 position-relative">
-       
-      <div class="framed-inner">
-        <img src="img/frame_shape2.png" alt="Exterior Design" class="img-fluid" />
-      </div>
-      <div class="frame-box-overlay right" >
-        Some places are made<br />
-        to live in. this one, to<br />
-        live through.
-      </div>
-    </div>
-    <div class="col-md-6"></div>
-  </div>
-
-  </div>
-</div>
-
- 
-<section class="finishing-touch text-center py-5" style="background:#DA8A67C2;">
-  <div class="layout-wrapper">
-    <h2 class="finishing-title mb-5">The Finishing Touch To The Finishing Touches</h2>
-
-    <div class="image-flex-wrapper">
-      <!-- Left Image -->
-      <div class="image-item">
-        <img src="img/group1.png" alt="Left" />
-      </div>
-
-      <!-- Center Image with Overlay -->
-      <div class="image-item center-item position-relative">
-        <img src="img/group2.png" alt="Center" />
-        <div class="center-overlay text-start text-white">
-          <h4 class="overlay-heading">Lorem Ipsum is simply</h4>
-          <p class="overlay-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          </p>
+        <div class="row g-0 position-relative flex-row-reverse">
+          <div class="col-md-6 position-relative">
+            <div class="framed-inner">
+              <img
+                src="img/frame_shape2.png"
+                alt="Exterior Design"
+                class="img-fluid"
+              />
+            </div>
+            <div class="frame-box-overlay right">
+              Some places are made<br />
+              to live in. this one, to<br />
+              live through.
+            </div>
+          </div>
+          <div class="col-md-6"></div>
         </div>
       </div>
-
-      <!-- Right Image -->
-      <div class="image-item">
-        <img src="img/piller2.png" alt="Right" />
-      </div>
     </div>
-  </div>
-</section>
 
+    <section
+      class="finishing-touch text-center py-5"
+      style="background: #da8a67c2"
+    >
+      <div class="layout-wrapper">
+        <h2 class="finishing-title mb-5">
+          The Finishing Touch To The Finishing Touches
+        </h2>
 
- <footer style="background-color: #d29661" class="text-center py-4">
+        <div class="image-flex-wrapper">
+          <!-- Left Image -->
+          <div class="image-item">
+            <img src="img/group2.png" alt="Left" />
+          </div>
+
+          <!-- Center Image with Overlay -->
+          <div class="image-item center-item position-relative">
+            <img src="img/group2.png" alt="Center" />
+            <div class="center-overlay text-start text-white">
+              <h4 class="overlay-heading">Lorem Ipsum is simply</h4>
+              <p class="overlay-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="image-item">
+            <img src="img/group2.png" alt="Right" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background-color: #d29661" class="text-center py-4">
       © 2025 Advait Luxury. All Rights Reserved.
     </footer>
- 
-<!-- <script>
+
+    <!-- <script>
   const imageItems = document.querySelectorAll('.image-item');
 
   imageItems.forEach((item) => {
@@ -265,51 +286,49 @@ align-items: center;
   });
 </script> -->
 
+    <script>
+      const imageItems = document.querySelectorAll(".image-item");
+      const isMobile = window.innerWidth <= 768;
 
-<script>
-  const imageItems = document.querySelectorAll('.image-item');
-  const isMobile = window.innerWidth <= 768;
+      imageItems.forEach((item) => {
+        if (isMobile) {
+          // Touch/Click behavior for mobile
+          item.addEventListener("click", () => {
+            imageItems.forEach((el) => {
+              el.classList.remove("hovered", "not-hovered", "center-item");
+              if (el !== item) {
+                el.classList.add("not-hovered");
+              } else {
+                el.classList.add("hovered");
+              }
+            });
+          });
+        } else {
+          // Hover behavior for desktop
+          item.addEventListener("mouseenter", () => {
+            imageItems.forEach((el) => {
+              el.classList.remove("hovered", "not-hovered", "center-item");
+              if (el !== item) {
+                el.classList.add("not-hovered");
+              } else {
+                el.classList.add("hovered");
+              }
+            });
+          });
 
-  imageItems.forEach((item) => {
-    if (isMobile) {
-      // Touch/Click behavior for mobile
-      item.addEventListener('click', () => {
-        imageItems.forEach((el) => {
-          el.classList.remove('hovered', 'not-hovered', 'center-item');
-          if (el !== item) {
-            el.classList.add('not-hovered');
-          } else {
-            el.classList.add('hovered');
-          }
-        });
+          item.addEventListener("mouseleave", () => {
+            imageItems.forEach((el) => {
+              el.classList.remove("hovered", "not-hovered");
+            });
+            // Restore center image if needed
+            document
+              .querySelector(".image-flex-wrapper .image-item:nth-child(2)")
+              .classList.add("center-item");
+          });
+        }
       });
-    } else {
-      // Hover behavior for desktop
-      item.addEventListener('mouseenter', () => {
-        imageItems.forEach((el) => {
-          el.classList.remove('hovered', 'not-hovered', 'center-item');
-          if (el !== item) {
-            el.classList.add('not-hovered');
-          } else {
-            el.classList.add('hovered');
-          }
-        });
-      });
+    </script>
 
-      item.addEventListener('mouseleave', () => {
-        imageItems.forEach((el) => {
-          el.classList.remove('hovered', 'not-hovered');
-        });
-        // Restore center image if needed
-        document.querySelector('.image-flex-wrapper .image-item:nth-child(2)').classList.add('center-item');
-      });
-    }
-  });
-</script>
-
-
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

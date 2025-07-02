@@ -609,7 +609,7 @@ align-items: center;
   transition: flex 0.5s ease;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   cursor: pointer;
 }
 
@@ -618,7 +618,7 @@ align-items: center;
   height: 700px;
   object-fit: cover;
   display: block;
-  transition: transform 0.4s ease;
+  /* transition: transform 0.4s ease; */
 }
 
 /* Initially expand center image */
@@ -635,8 +635,9 @@ align-items: center;
   flex: 1;
 }
 
-.image-item.hovered img {
-  transform: scale(1.03);
+  .image-item.hovered img {
+   transition: none !important;
+  transform: none !important;
 }
 
 /* Overlay */
