@@ -1,0 +1,256 @@
+
+
+.memory-section {
+  padding: 30px 0px;
+}
+
+.craft-box {
+   border-radius: 14px;
+  padding: 30px;
+   width: 100%;
+   border: 1px solid #F1D7C2;
+  border-radius: 30px;
+ }
+
+.craft-title {
+   color: #fff;
+  font-weight: 500;
+
+ font-family: 'Bodoni72', serif;
+font-weight: 400;
+font-size: 54px;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+
+
+
+}
+
+.craft-frame {
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image-source: url('https://www.transparenttextures.com/patterns/frame-border.png'); /* Replace with actual frame if needed */
+  border-image-slice: 30;
+  border-image-repeat: round;
+  display: inline-block;
+  border: 8px solid #b37a2f;  
+}
+
+.craft-frame img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+
+/* -----------------------------------advait Space section ------------------------- */
+
+.advait-section {
+  background-color: transparent;
+}
+
+.section-heading .advait_style{
+ font-family: 'Tangerine', cursive;
+font-weight: 400;
+font-size: 64px;
+line-height: 100%;
+ text-align: center;
+
+}
+
+.section-heading{
+ font-family: 'Bodoni72', serif;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.image-card{
+     padding: 10px;
+      border: 1px solid #D4E2BC;
+       background: linear-gradient(270deg, #455130 0%, #9BB76C 52.4%, #455130 100%);
+  border-radius: 25px;
+  height: 100%;
+transition: transform 0.4s ease;  
+}
+
+.img-fluid{
+    height: 100% !important;
+}
+ 
+ 
+.image-card:hover{
+  transform: scale(1.08);  
+}
+
+.text-card {
+   border-radius: 25px;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+border: 1px solid #D4E2BC;
+    
+  background: linear-gradient(270deg, rgba(69, 81, 48, 0.39) 0%, rgba(155, 183, 108, 0.39) 100%);
+
+font-family: "Bellefair", serif;
+font-weight: 400;
+font-size: 28px; 
+ line-height: 32px;
+ 
+
+}
+
+
+/* --------------------------------privilege------------------------------ */
+
+
+
+.privilege-section {
+background: #DA8A67C2;
+  color: #fff;
+  /* padding: 60px 20px; */
+}
+
+.privilege-title {
+
+ font-family: 'Bodoni72', serif;
+font-weight: 400 !important;
+font-size: 54px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+
+
+}
+
+.privilege-subtitle {
+ 
+font-weight: 400 !important;
+font-size: 32px;
+line-height: 24px;
+text-align: center;
+font-family: "Bellefair", serif;
+
+}
+
+.privilege-subtitle .italic {
+ 
+ font-family: 'Tangerine', cursive;
+ font-weight: 400;
+font-size: 64px;
+line-height: 24px;
+text-align: center;
+
+}
+
+.privilege-wrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ----------------------------shoot section ---------------------- */
+
+ 
+
+.shoot-section {
+  background-color: transparent;
+  color: white;
+  padding: 80px 0px;
+}
+
+.shoot-text p {
+   
+
+ font-family: "Bellefair", serif;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+ color:  #FFFFFF;
+;
+}
+
+.frame-image1 {
+  border: 14px solid transparent;
+   border-image: url('/img/craft/shoot_frame1.png') ; 
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+.frame-image2 {
+  border: 14px solid transparent;
+   border-image: url('/img/craft/shoot_frame2.png') ;  
+  border-image-slice: 30;
+  border-image-repeat: round;
+}
+
+.frame-image img {
+   border-radius: 6px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+
+
+ @media screen and (max-width:670px) {
+  .mobile_craft_title{
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .craft_advait{
+    font-size: 50px !important;
+
+  }
+   
+   
+}
+@media screen and (max-width:507px) {
+  .mobile_craft_title{
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+
+  .craft_advait{
+    font-size: 40px !important;
+  }
+
+  .craft-box{
+    padding: 10px;
+  }
+  
+  .privilege-subtitle {
+    font-size: 25px;
+
+  }
+
+  .shoot-text p , .privilege_text{
+    font-size: 25px;
+    line-height: 30px;
+
+  }
+}
+@media screen and (max-width:390px) {
+  .mobile_craft_title{
+    font-size: 25px;
+  }
+
+  /* .craft_advait{
+    font-size: 35px !important;
+  } */
+ 
+  
+}

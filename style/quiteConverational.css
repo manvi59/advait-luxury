@@ -1,5 +1,6 @@
 .quiet-section {
    font-family: "Libre Baskerville", serif;
+    
 }
 
 .quiet-title {
@@ -74,6 +75,40 @@
   object-fit: cover;
   border-radius: 3px;
   display: block;
+}
+
+@media screen  and (max-width:900px){
+
+  .quiet-title {
+
+  font-size: 40px;
+line-height: 42px;
+  }
+
+  .quiet-section{
+    margin-top: 30px;
+  }
+  
+}
+
+@media screen  and (max-width:576px){
+  .quiet_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .quiet-btn{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 395px) {
+  .quiet-title{
+    font-size: 30px !important;
+   }
+  
 }
 
 /* ---------------------------------whisper model ------------------- */
@@ -207,3 +242,11 @@
 .form-select {
   --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e") !important;
 }
+
+
+/* footer{
+  position: sticky !important;
+  bottom: 0px !important;
+  width: 100% !important;
+  
+} */
