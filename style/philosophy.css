@@ -79,18 +79,53 @@ letter-spacing: 0%;
   
 }
 
+
+
 @media screen and (max-width:670px) {
   .section-title{
     font-size: 40px;
   }
   .section-wrapper{
-    padding-top: 0px !important;
+    padding: 20px 0 !important;
+  }
+  .grace-section{
+    padding: 20px 0px !important;
+  }
+  .grace-section h2{
+    margin-bottom: 20px !important;
+  }
+     .g-5{
+    --bs-gutter-y: 1rem !important;
+   }
+
+    .highlight-box {
+    padding: 12px 10px !important;
+    font-size: 20px !important;
+    margin-top: 0px !important;
+  }
+  .content-box {
+   
+  padding: 20px 13px !important;
+  }
+  .image-div {
+    padding: 10px !important;
   }
 }
+
 @media screen and (max-width:507px) {
   .section-title{
     font-size: 30px;
   }
+
+  /* .grace-section{
+    padding: 40px 0px !important;
+  } */
+  /* .grace-section h2{
+    margin-bottom: 40px !important;
+  } */
+  /* .section-wrapper{
+    padding-bottom: 40px !important;
+  } */
   
 }
 @media screen and (max-width:390px) {
@@ -98,9 +133,16 @@ letter-spacing: 0%;
     font-size: 25px;
   }
   .section-text{
-    font-size: 22px;
+    font-size: 20px;
   }
-  
+  .stone-title2{
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-size: 23px;
+  }
+   .g-5{
+    --bs-gutter-y: 1rem !important;
+   }
 }
  
  /* .heritage-section {
@@ -344,4 +386,11 @@ text-align: center;
       .grace-section h2 {
         font-size: 1.4rem;
       }
+    }
+
+    @media screen and (max-width:342px) {
+      .image-div{
+        width: 95%;
+      }
+      
     }

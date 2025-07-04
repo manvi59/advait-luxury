@@ -27,15 +27,17 @@ text-align: center;
 
 }
 
-.craft-frame {
+/* .craft-frame {
   border: 10px solid transparent;
   padding: 5px;
-  border-image-source: url('https://www.transparenttextures.com/patterns/frame-border.png'); /* Replace with actual frame if needed */
+  border-image-source: url('https://www.transparenttextures.com/patterns/frame-border.png');  
   border-image-slice: 30;
   border-image-repeat: round;
   display: inline-block;
   border: 8px solid #b37a2f;  
-}
+} */
+
+
 
 .craft-frame img {
   width: 100%;
@@ -201,6 +203,14 @@ line-height: 40px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
+@media screen and (max-width:768px) {
+  .craft-box{
+    padding: 1rem !important;
+  }
+  .craft-frame{
+    margin-top: 1rem !important;
+  }
+}
 
 
  @media screen and (max-width:670px) {
@@ -211,7 +221,12 @@ line-height: 40px;
   }
 
   .craft_advait{
-    font-size: 50px !important;
+    font-size: 40px !important;
+
+  }
+
+  .privilege-subtitle{
+    font-size: 30px;
 
   }
    
@@ -253,4 +268,22 @@ line-height: 40px;
   } */
  
   
+}
+
+
+@media screen  and (max-width: 363px) {
+  .mobile_craft_title{
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+  
+}
+
+@media screen and (max-width:768px){
+  .advait-section{
+    padding: 1rem 0px !important;
+
+  }
+
 }

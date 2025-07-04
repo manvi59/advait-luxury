@@ -792,7 +792,7 @@ align-items: center;
       top: 0;
       left: 0;
       /* height: 100vh; */
-      height: 80vh;
+      height: 40vh;
       width: 100vw;
        color: #fff;
       background-color: #8DA16E;
@@ -862,3 +862,39 @@ align-items: center;
   bottom: 0px !important;
   width: 100% !important;
 } */
+
+
+
+@media screen and (max-width:766px) {
+  .frame-section{
+    margin-bottom: 20px !important;
+  }
+
+  .frame{
+    margin: 0px 0px !important;
+    margin-top: 20px !important;
+  }
+  .frame-box-overlay{
+    margin: 0px !important;
+  }
+
+  .canvas-section{
+    margin: 20px 0px !important;
+  }
+
+  .finishing-touch{
+    padding: 20px 0px !important;
+  }
+
+  .finishing-title{
+    margin-bottom: 20px !important;
+  }
+
+  .framed-inner img , .frame-box-overlay{
+    margin-bottom: 20px !important;
+  }
+ 
+
+}
+
+ 

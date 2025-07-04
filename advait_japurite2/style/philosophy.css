@@ -1,0 +1,347 @@
+.section-wrapper {
+  padding: 60px 0px;
+  /* margin-bottom: 80px; */
+}
+
+.section-title {
+   
+  color: #fff;
+
+  font-family: 'Bodoni72', serif;
+
+font-weight: 400;
+font-size: 54px;
+line-height: 56px;
+letter-spacing: 0%;
+
+  
+}
+
+.philosophy_window{
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.section-text {
+   
+  font-family: "Bellefair", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: justify;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.image-frame {
+  border: 10px solid transparent;
+  padding: 5px;
+  background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Classic_frame.png/640px-Classic_frame.png")
+    center/cover no-repeat;
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-frame img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  /* .section-title {
+    font-size: 2rem;
+  } */
+  .section-text{
+    font-size: 25px;
+  }
+}
+
+/* @media screen and (max-width:1000px) {
+  .section-title {
+    font-size: 2rem;
+    line-height: 34px;
+  }
+  
+} */
+@media screen and (max-width:992px) {
+   .stone-title1{
+    display: none;
+   }
+   .stone-title2{
+    display: block !important;
+   }
+
+    
+  
+}
+
+@media screen and (max-width:670px) {
+  .section-title{
+    font-size: 40px;
+  }
+  .section-wrapper{
+    padding-top: 0px !important;
+  }
+}
+@media screen and (max-width:507px) {
+  .section-title{
+    font-size: 30px;
+  }
+  
+}
+@media screen and (max-width:390px) {
+  .section-title{
+    font-size: 25px;
+  }
+  .section-text{
+    font-size: 22px;
+  }
+  
+}
+ 
+ /* .heritage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+
+ }
+
+.content-box {
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  background: #4551308C;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.8;
+  height: 530px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+ }
+
+.main-text {
+  font-family: "Bellefair";
+  font-weight: 400;
+   
+  text-align: center;
+
+   font-size: 34px;
+   line-height: 100%;
+   letter-spacing: 0%;
+}
+
+.inspired_text {
+  font-family: 'Tangerine', cursive;
+  font-weight: 400;
+  text-align: center;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.highlight-box {
+  background: #DA8A67AD;
+  padding: 12px 24px;
+  color: white;
+  font-weight: 400;
+  border-radius: 14px;
+   font-family: 'Bodoni72', serif;
+ 
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.image-div {
+  background: #D29661D1;
+  border-radius: 14px;
+  border: 1px solid #FFFFFF;
+   
+  z-index: 1;
+}
+
+.image-div img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+
+  .heritage-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 100px 20px 60px; */
+  /* background: #6d875a; */
+  position: relative;
+}
+
+.content-box {
+  background: #4551308C;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  padding: 40px 30px;
+  /* max-width: 900px; */
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 80px; /* creates space for image to overlap */
+  padding-bottom: 250px;
+}
+
+.image-div {
+  background: #D29661D1;
+  border: 1px solid #fff;
+  border-radius: 14px;
+  padding: 17px;
+  /* max-width: 800px; */
+  width: 90%;
+  /* margin-top: -100px;   */
+  margin-top: -280px;  
+  position: relative;
+  z-index: 3;
+}
+
+.image-div img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.main-text {
+  font-family: "Bellefair";
+   
+  line-height: 1;
+  margin-bottom: 20px;
+font-weight: 400;
+font-size: 34px;
+/* line-height: 100%;
+letter-spacing: 0%; */
+text-align: center;
+
+}
+
+.inspired_text {
+  font-family: 'Tangerine', cursive;
+  font-size: 48px;
+  font-weight: 400px;
+}
+
+.highlight-box {
+background: #DA8A67AD;
+  color: white;
+  /* font-size: 30px;
+  font-family: 'Bodoni72', serif; */
+  border-radius: 14px;
+  padding: 12px 50px;
+  margin-top: 20px;
+  display: inline-block;
+
+font-family: 'Bodoni72', serif;
+ font-weight: 400;
+font-size: 38px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.caption-text {
+  font-family: 'Bellefair', serif;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+  /* max-width: 800px; */
+}
+
+
+@media screen  and (max-width: 800px) {
+
+  .main-text{
+    font-size: 22px;
+  }
+
+  .inspired_text {
+     
+    font-size: 35px;
+ }
+
+ .highlight-box{
+  font-size: 25px;
+ }
+}
+
+@media screen  and (max-width: 649px) {
+  .content-box{
+    padding-bottom: 100px !important;
+  }
+  
+  .image-div{
+    margin-top: -150px;
+  }
+
+  .highlight-box{
+  padding: 12px 20px;
+ }
+}
+
+ 
+
+
+/* -----------------------------grace image -------------------------- */
+
+
+.grace-section {
+      /* padding: 80px 20px; */
+      text-align: center;
+      color: white;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    .grace-section h2 {
+      font-size: 1.8rem;
+      /* font-style: italic; */
+      margin-bottom: 50px;
+
+       font-family: 'Bodoni72', serif;
+  font-size: 54px;
+  color: #fff;
+  font-weight: 400;
+    }
+
+    .image-pair {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+
+     
+
+    .grace-image-wrapper img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+       border-radius: 20px;
+  /* box-shadow: inset 0 0 0 2px #d4d6be; */
+
+  border: 1px solid #d4e2bc;
+
+  background: linear-gradient(270deg, #455130 0%, #9bb76c 52.4%, #455130 100%);
+  padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .grace-section h2 {
+        font-size: 1.4rem;
+      }
+    }

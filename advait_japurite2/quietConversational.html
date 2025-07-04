@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advait Luxury</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style/style.css" />
+   <link rel="stylesheet" href="style/quiteConverational.css" />
+   <script src="js/layout-loader.js" defer></script>
+</head>
+<body>
+ <header class="site-header ">
+    <div class="layout-wrapper">
+      <div class="header-inner my-3">
+        <!-- Logo -->
+        <div class="logo-area">
+          <a href="index.html"><img src="img/advaitLogo.png" class="logo" alt="Advait Logo" /></a>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger d-md-none" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links d-none d-md-flex">
+          <a href="index.html">Home</a>
+          <a href="philosophy.html">Philosophy</a>
+          <a href="craft-creation.html">Craft & Creation</a>
+          <a href="quietConversational.html">In Quiet Conversation</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Mobile Menu Modal -->
+    <div id="mobileMenu" class="mobile-menu">
+      <div class="mobile-menu-content">
+        <span class="close-btn" onclick="toggleMenu()">&times;</span>
+        <a href="index.html">Home</a>
+        <a href="philosophy.html">Philosophy</a>
+        <a href="craft-creation.html">Craft & Creation</a>
+        <a href="quietConversational.html">In Quiet Conversation</a>
+      </div>
+    </div>
+  </header>
+     <div class="site-container">
+    <div class="layout-wrapper">
+   <!-- <header class="site-header">
+        <div class="header-inner my-3">
+          <div class="logo-area">
+            <a href="#">
+              <img src="img/advaitLogo.png" class="logo" alt="Advait Logo" />
+            </a>
+          </div>
+          <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="philosophy.html">Philosophy</a>
+            <a href="craft-creation.html">Craft & Creation</a>
+            <a href="quietConversational.html">In Quiet Conversation</a>
+          </nav>
+        </div>
+      </header> -->
+
+  <section class="quiet-section ">
+    <div class="">
+      <div class="row  justify-content-between align-items-center ">
+        <!-- Left Text -->
+         <div class="col-sm-5 quiet_content">
+
+           <div class="text-white  ">
+             <h2 class="quiet-title quiet_content">In Quiet
+              <span class="ms-2">
+               Conversation </span></h2>
+             <p class="quiet-text my-4">
+               If your journey and ours feel aligned, we’re happy to hear from you.
+             </p>
+             <!-- <button class="btn quiet-btn">Leave a Whisper</button> -->
+              <button class="btn quiet-btn mb-4" data-bs-toggle="modal" data-bs-target="#whisperModal">Leave a Whisper</button>
+   
+           </div>
+         </div>
+
+        <!-- Right Framed Image -->
+        <div class=" text-center col-sm-7">
+          <div class="frame-wrapper mx-auto">
+            <img src="img/quiet/quiet_frame.png" alt="Frame" class="quite-image">
+            <div class="inner-image">
+              <img src="img/quiet/quiet_image.png" alt="Villa" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+<div class="modal fade" id="whisperModal" tabindex="-1" aria-labelledby="whisperModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content whisper-modal">
+      <button type="button" class="btn-close custom-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+
+       <div class="modal-body">
+        <h3 class="text-center text-white mb-4 model_wishper">Leave A Whisper</h3>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control form-control-custom " placeholder="Your Name"  >
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control form-control-custom" placeholder="Phone Number">
+            </div>
+            <div class="col-12">
+              <input type="email" class="form-control form-control-custom" placeholder="example@advaitluxury.com">
+            </div>
+            <div class="col-12">
+              <select class="form-select form-control-custom">
+                <option selected disabled>Purpose (TBD)</option>
+                <option>Booking</option>
+                <option>Inquiry</option>
+              </select>
+            </div>
+            <div class="col-12 text-center mt-3">
+              <button type="submit" class="btn submit-btn">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ 
+
+</div>
+</div>
+ <footer style="background-color: #d29661" class="text-center py-4">
+      © 2025 Advait Luxury. All Rights Reserved.
+    </footer>
+
+ 
+  <script>
+    function toggleMenu() {
+      document.getElementById("mobileMenu").classList.toggle("active");
+    }
+  </script>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
