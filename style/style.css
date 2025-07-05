@@ -16,6 +16,7 @@ body {
    background-color: #8DA16E;
    /* background-image: url("img/multiply_bg.png"); */
    background-image: url("/img/merge.jpg");
+   height: 100%;
 }
 
 @font-face {
