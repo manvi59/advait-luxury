@@ -108,7 +108,7 @@ letter-spacing: 0%;
   padding: 20px 13px !important;
   }
   .image-div {
-    padding: 10px !important;
+    padding: 6px !important;
   }
 }
 
@@ -333,6 +333,11 @@ text-align: center;
   .highlight-box{
   padding: 12px 20px;
  }
+
+ .grace-image-wrapper img{
+    padding: 6px !important;
+  }
+   
 }
 
  

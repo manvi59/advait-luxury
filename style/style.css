@@ -46,7 +46,7 @@ a {
   /* max-width: 900px; */
   max-width: 1171px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 8px;
 }
 
 /* ================================
@@ -190,9 +190,9 @@ text-align: center;
 ================================= */
 
 @media screen and (max-width:846px) {
-  .header-inner{
+  /* .header-inner{
     justify-content: center;
-  }
+  } */
   .logo{
     margin-bottom: 20px;
   }
@@ -254,11 +254,11 @@ text-align: center;
   }
 
   .highlight {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .description {
-    font-size: 15px;
+    font-size: 22px;
   }
 
   .badge{
@@ -385,6 +385,7 @@ letter-spacing: 0%;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+  background-color: #da8a67;
 }
 
 .frameSection {
@@ -569,12 +570,7 @@ z-index: -10 !important;
 
 
 
-/* .footer{
-   
-     bottom: 0;
-     width: 100%;
-
-} */
+ 
 
 /* -----------------------------------design frame----------------------- */
 
@@ -851,11 +847,11 @@ align-items: center;
       }
     }
 
-    @media (min-width: 769px) {
+    /* @media (min-width: 769px) {
       .hamburger {
         display: none;
       }
-    }
+    } */
    
 
     /* footer{
@@ -882,17 +878,29 @@ align-items: center;
   .canvas-section{
     margin: 20px 0px !important;
   }
+  .canvas-section {
+    padding: 20px 10px;
+  }
 
   .finishing-touch{
     padding: 20px 0px !important;
   }
 
   .finishing-title{
-    margin-bottom: 20px !important;
+    /* margin-bottom: 20px !important; */
+    margin-bottom: 0px !important;
   }
 
   .framed-inner img , .frame-box-overlay{
     margin-bottom: 20px !important;
+  }
+
+  .piller{
+   display: none !important;
+  }
+
+  .frame-section{
+    padding: 6px !important;
   }
  
 
