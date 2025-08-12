@@ -10,7 +10,8 @@
   font-family: 'Bodoni72', serif;
 
 font-weight: 400;
-font-size: 54px;
+/* font-size: 54px; */
+font-size: 34px;
 line-height: 56px;
 letter-spacing: 0%;
 
@@ -91,9 +92,15 @@ letter-spacing: 0%;
   .grace-section{
     padding: 20px 0px !important;
   }
+
   .grace-section h2{
-    margin-bottom: 20px !important;
+    /* margin-bottom: 20px !important; */
+
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
   }
+
+  
      .g-5{
     --bs-gutter-y: 1rem !important;
    }
@@ -127,6 +134,14 @@ letter-spacing: 0%;
     padding-bottom: 40px !important;
   } */
   
+}
+@media screen and (max-width:410px) {
+
+.section-title{
+  font-size: 25px !important;
+
+}
+
 }
 @media screen and (max-width:390px) {
   .section-title{
@@ -264,7 +279,7 @@ letter-spacing: 0%;
   line-height: 1;
   margin-bottom: 20px;
 font-weight: 400;
-font-size: 34px;
+font-size: 30px;
 /* line-height: 100%;
 letter-spacing: 0%; */
 text-align: center;
@@ -283,13 +298,14 @@ background: #DA8A67AD;
   /* font-size: 30px;
   font-family: 'Bodoni72', serif; */
   border-radius: 14px;
-  padding: 12px 50px;
+  padding: 12px 100px;
   margin-top: 20px;
   display: inline-block;
 
 font-family: 'Bodoni72', serif;
  font-weight: 400;
-font-size: 38px;
+/* font-size: 38px; */
+font-size:25px;
 line-height: 100%;
 letter-spacing: 0%;
 text-align: center;
@@ -324,6 +340,7 @@ text-align: center;
 @media screen  and (max-width: 649px) {
   .content-box{
     padding-bottom: 100px !important;
+    /* padding-bottom: 80px !important; */
   }
   
   .image-div{
@@ -360,7 +377,8 @@ text-align: center;
       margin-bottom: 50px;
 
        font-family: 'Bodoni72', serif;
-  font-size: 54px;
+  /* font-size: 54px; */
+  font-size: 34px;
   color: #fff;
   font-weight: 400;
     }
@@ -397,5 +415,21 @@ text-align: center;
       .image-div{
         width: 95%;
       }
+      
+    }
+
+
+    @media screen  and (max-width: 352px) {
+      .section-title {
+    font-size: 20px !important;
+  }
+
+      
+    }
+    @media screen  and (max-width: 293px) {
+      .section-title {
+    font-size: 18px !important;
+  }
+
       
     }
