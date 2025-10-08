@@ -357,8 +357,9 @@ letter-spacing: 0%;
   /* font-size: 22px; */
   font-weight: 400;
   margin-bottom: 10px;
-  /* font-size: 40px; */
-  font-size: 34px;
+  
+  /* font-size: 34px; */
+  font-size: 30px;
   line-height: 100%;
   letter-spacing: 0%;
 }
@@ -366,8 +367,10 @@ letter-spacing: 0%;
 .overlay-text {
  font-family: 'Jaldi', sans-serif;
 font-weight: 400;
-font-size: 20px;
-line-height: 24px;
+/* font-size: 20px;
+line-height: 24px; */
+font-size: 17px;
+line-height: 20px;
 letter-spacing: 0%;
 }
 
